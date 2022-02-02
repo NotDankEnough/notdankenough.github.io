@@ -1,0 +1,36 @@
+@import url('https://use.fontawesome.com/releases/v5.13.0/css/all.css');
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    font-size: 1rem;
+    line-height: 1rem;
+    background-color: #fff;
+    margin: 0 auto;
+    max-width: 520px;
+    text-align: left;
+}
+
+.center {
+    text-align: justify;
+    text-align-last: center;
+}
+
+li, p, td, th, ul, a {
+    font-size: 18px;
+    line-height: 1.2rem;
+    color: #000;
+}
+h1 {
+    font-size: 32px;
+}
+
+a:hover {
+    text-decoration: line-through;
+}
+
+li {
+    list-style-type: none;
+}
