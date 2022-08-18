@@ -2,44 +2,52 @@
 <html>
     <head>
         <link rel="stylesheet" href="css/legacy.css">
-        <link rel="icon" href="https://cdn.betterttv.net/emote/6199725054f3344f88069502/3x">
+        <link rel="icon" href="https://static-cdn.jtvnw.net/emoticons/v2/300196486/default/dark/1.0">
+        <title>iLotterytea</title>
     </head>
     <body>
-        <!-- Title -->
-        <h1 id="placeHereAHTTPStatus"></h1>
-        
-        <!-- Header -->
-        <p>ヽヽ｀ヽ｀、ヽヽ｀ヽ｀、ヽヽ｀ヽ｀、ヽヽ｀ヽ｀、ヽヽ｀ヽ<br>
-            ｀ヽ、ヽヽ｀ヽ、ヽヽ｀ヽ、ヽヽ｀ヽ、ヽヽ｀ヽ、ヽヽ｀ヽ｀<br>
-            ｀ヽ｀、ヽヽ｀ヽ｀、ヽヽ｀ヽ｀、ヽヽ｀ヽ｀、ヽヽ｀ヽ｀、<br>
-            ｀、ヽヽ｀ヽ<img src="https://cdn.betterttv.net/emote/566c9fc265dbbdab32ec053b/3x" width=18 alt="FeelsBadMan" title="FeelsBadMan">☂ just a memer｀、ヽヽ｀ヽ｀、ヽヽヽ｀ヽ｀<br>
-            ヽヽ｀ヽ｀、ヽヽ｀ヽ｀、ヽヽ｀ヽ｀、ヽヽ｀ヽ｀、ヽヽ｀ヽ</p>
-        
-        <!-- Links -->
-        <ul>
-            
-            <li class="header"><img src="https://avatars.githubusercontent.com/u/35036237?v=4" width="16"> <span title="also known as: notdankenough" style="cursor:help;">ilotterytea</span></li>
-            <li>┣ <i class="fab fa-github-alt"></i> <a href="https://github.com/notdankenough">github</a></li>
-            <li>⠀ ┗ <a href="https://github.com/notdankenough/bot2">notdankenough/bot2</a> <a href="https://bot.hmmtodayiwill.ru">(Website)</a></li>
-            <li>┣ <i class="fab fa-twitch"></i> <a href="https://twitch.tv/ilotterytea">twitch</a></li>
-            <li>┣ <i class="fas fa-envelope-square"></i> <a href="mailto:hatesociety@pm.me">email</a></li>
-            <li>┗ <i class="fab fa-telegram-plane"></i> <a href="https://t.me/justbuildahouse">telegram</a></li>
-        </ul>
-        <br>
-
-        <!-- Footer -->
-        <center>
-            <span id="2038Timestamp" style="font-size:8px;color:#dfdfdf;"></span>
-            <div id="emote"></div>
-        </center>
+        <div class="container">
+            <div class="wrapper">
+                <section id="brand">
+                    <img src="https://cdn.betterttv.net/emote/5c0bc8e66fa89733b2af374a/3x">
+                </section>
+                <section id="links">
+                    <ul>
+                        <li>
+                            <div class="item">
+                                <i class="fab fa-github-alt"></i> <a href="https://github.com/notdankenough">github</a>
+                            </div>
+                        </li>
+                        
+                        <ul>
+                            <li>
+                                <div class="item">
+                                    <img src="https://bot.hmmtodayiwill.ru/img/favicon.png">
+                                    <a href="https://bot.hmmtodayiwill.ru/">iLotterytea's Twitch Bot 2</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="item">
+                                    <img src="https://i.hmmtodayiwill.ru/img/favicon.png">
+                                    <a href="https://i.hmmtodayiwill.ru/">Picturebin</a>
+                                </div>
+                            </li>
+                        </ul>
+                        
+                        <li><div class="item"><i class="fab fa-twitch"></i> <a href="https://twitch.tv/ilotterytea">twitch</a></div></li>
+                        <li><div class="item"><i class="fas fa-envelope-square"></i> <a href="mailto:hatesociety@pm.me">email</a></div></li>
+                        <li><div class="item"><i class="fab fa-telegram-plane"></i> <a href="https://t.me/justbuildahouse">telegram</a></div></li>
+                    </ul>
+                </section>
+                <section id="shit">
+                    <span id="timestamp"></span>
+                </section>
+            </div>
+        </div>
     </body>
-
-    <!-- Scripts -->
-    <script src="./scripts/randomTTVEmote.js"></script>
-    <script src="./scripts/randomHTTPStatus.js"></script>
     
     <!-- Progress in reaching the final time of POSIX/UNIX systems (hackerCD)-->
     <script>
-        document.getElementById("2038Timestamp").innerHTML = `${(((Math.round((new Date()).getTime() / 1000) / 2147483647) * 100).toFixed(2)).toString()}%`;
+        document.getElementById("timestamp").innerHTML = `${(((Math.round((new Date()).getTime() / 1000) / 2147483647) * 100).toFixed(2)).toString()}%`;
     </script>
 </html>
