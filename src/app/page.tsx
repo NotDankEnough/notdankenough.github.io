@@ -18,6 +18,7 @@ export default function Page() {
               links.map((v, i) => (
                 <Link
                   href={v.url}
+                  key={i}
                   className="p-1 transition-all underline underline-offset-8 text-pink-400 hover:text-black hover:bg-pink-400 hover:line-through ">
                     {v.name}
                 </Link>
